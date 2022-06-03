@@ -1,8 +1,11 @@
 
-class Solution(n):
+class Solution:
     def sol(self,n):
+        
         ans = []
         for num in range(1,n+1):
+            divBy3 = (num % 3 == 0)
+            divBy5 = (num % 5 == 0)
             if divBy3 and divBy5:
                 ans.append("FizzBuzz")
             elif divBy3:
@@ -10,9 +13,9 @@ class Solution(n):
             elif divBy5:
                 ans.append("Buzz")
             else:
-                print(x)
+                ans.append(str(num))
         return ans
 
 
-fb = Solution(60)
-fb.sol()
+fb = Solution()
+print(fb.sol(60))
