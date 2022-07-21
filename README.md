@@ -1,2 +1,1 @@
-My name is Noah Henderson I am a studen at Colorado School of mines for
-computer science with a focus in data science and I plan on doing my masters in data science
+My Name is Noah Henderson. I am a Computer Science student at Colorado School of mines hoping to become a software engineer
